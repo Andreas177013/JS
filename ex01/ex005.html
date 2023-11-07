@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background: #fdc2ff;
+            color: rgb(231, 242, 253);
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>primeiro DOM</h1>
+    <p>resultado</p>
+    <p>usando o <strong>DOM</strong> em JavaScript.</p>
+    <div><a href="#">clique em mim</a></div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var corpo = window.document.body
+        //corpo.style.background = '#fdc2ff'
+        //p1.style.color = 'red'
+
+        document.write(p1.innerHTML)
+
+
+    </script>
+</body>
+</html>
